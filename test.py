@@ -9,16 +9,16 @@ from data_loader import Data_batch
 from fre_model import FRE
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--model_path', default='/home/liupengli/myWork/myPytorch/FRE/save/0.pth',
+parser.add_argument('--model_path', default='/home/myWork/myPytorch/FRE/save/0.pth',
                     type=str)
 parser.add_argument('--ls_path', default='testing', type=str,
                     help='chose which .lst file')
-parser.add_argument('--result_path', default='/home/liupengli/myWork/myPytorch/FRE/result',
+parser.add_argument('--result_path', default='/home/myWork/myPytorch/FRE/result',
                     type=str, help='where edge maps saved in')
 args = parser.parse_args()
 
 ########### get filename for cv2.imwrite()
-base_path = '/home/liupengli/myWork/DataSets/HED-BSDS'
+base_path = '/home/myWork/DataSets/HED-BSDS'
 if args.ls_path == 'test2':
     path = 'test2.lst'
 else:
