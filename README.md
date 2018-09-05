@@ -7,4 +7,4 @@ However, this implementation can run without bug.
 To run this model, we should change some path in ```data_loader.py   train.py  test.py``` respectively.
 After that, just run ``` Python
                           python train.py
-                         ````
+                         ```
