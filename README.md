@@ -1,15 +1,15 @@
 # FRE-Pytorch
->This is an Pytorch implementation of FRE network, which focus on the Edge Detection.
->We did not evaluate the ODS F-score of this version, since some hyper-parameters was not fine-tuned.
->The original code was implemented by TensorFLow, and we haven't made public the code yet, since our paper is not published.
->However, this implementation can run without bug.
+This is an Pytorch implementation of FRE network, which focus on the Edge Detection.
+We did not evaluate the ODS F-score of this version, since some hyper-parameters was not fine-tuned.
+The original code was implemented by TensorFLow, and we haven't made public the code yet, since our paper is not published.
+However, this implementation can run without bug.
 
->To run this model, we should change some path in ```data_loader.py   train.py  test.py``` respectively.
->After that, just run 
+To run this model, we should change some path in ```data_loader.py   train.py  test.py``` respectively.
+After that, just run 
                           ``` 
                           python train.py
                          ```
->The BSDS500 dataset and NYUD dataset are available:
+The BSDS500 dataset and NYUD dataset are available:
 ```
 wget http://mftp.mmcheng.net/liuyun/rcf/data/bsds_pascal_train_pair.lst
 wget http://mftp.mmcheng.net/liuyun/rcf/data/HED-BSDS.tar.gz
