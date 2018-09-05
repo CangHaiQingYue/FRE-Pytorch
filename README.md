@@ -18,7 +18,7 @@ wget http://mftp.mmcheng.net/liuyun/rcf/data/NYUD.tar.gz
 ```
 
 ## Citations
-If you used those dataset mentioned above， please citing follow papers:
+If you used dataset mentioned above， please cite the following papers:
 ```
 @inproceedings{liu2017richer,
   title={Richer Convolutional Features for Edge Detection},
