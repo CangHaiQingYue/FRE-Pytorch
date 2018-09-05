@@ -14,9 +14,9 @@ parser = argparse.ArgumentParser(description='The inputs arguments for FRE-model
 parser.add_argument('--batch_size', default=4, type=int)
 parser.add_argument('--fine_tune', default=False, type=str2bool,
                     help='if fine tune the model will load form trianed network')
-parser.add_argument('--pth_path', default='/home/liupengli/myWork/myPytorch/FRE/save', 
+parser.add_argument('--pth_path', default='/home/myWork/myPytorch/FRE/save', 
                     type=str, help='path where trained .pth file saved in')
-parser.add_argument('--vgg_pth_path', default='/home/liupengli/myWork/DataSets/vgg16.pth', 
+parser.add_argument('--vgg_pth_path', default='/home/myWork/DataSets/vgg16.pth', 
                     type=str, help='path where vgg16.pth saved in')
 ##########################     optimizer     ##########################################
 parser.add_argument('--lr', default=0.001, type=float, 
@@ -26,7 +26,7 @@ parser.add_argument('--momentum', default=0.9, type=float,
 parser.add_argument('--weight_decay', default=0.0002, type=float, 
                     help='weight_decay for weights')
 #####################     path     ##########################################3
-parser.add_argument('--save_path', default='/home/liupengli/myWork/myPytorch/FRE/save/', 
+parser.add_argument('--save_path', default='/home/myWork/myPytorch/FRE/save/', 
                     type=str, help='path where state_dict saved in after training')
 
 parser.add_argument('--max_steps', default=12001, type=int,
