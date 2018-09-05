@@ -5,15 +5,15 @@ import numpy as np
 from torch.utils.data import Dataset
 from torchvision import transforms
 
-base_path = {'training' : '/home/liupengli/myWork/DataSets/rcf',
-             'test2' : '/home/liupengli/myWork/DataSets/HED-BSDS',
-             'test1' : '/home/liupengli/myWork/DataSets/HED-BSDS',
-             'testing' : '/home/liupengli/myWork/DataSets/HED-BSDS'
+base_path = {'training' : '/home/myWork/DataSets/rcf',
+             'test2' : '/home/myWork/DataSets/HED-BSDS',
+             'test1' : '/home/myWork/DataSets/HED-BSDS',
+             'testing' : '/home/myWork/DataSets/HED-BSDS'
             }
 data_path = {'training' : 'bsds_pascal_train_pair.lst',
-             'test2' : '/home/liupengli/myWork/DataSets/HED-BSDS/test2.lst',
-             'test1' : '/home/liupengli/myWork/DataSets/HED-BSDS/test1.lst',
-             'testing' : '/home/liupengli/myWork/DataSets/HED-BSDS/test.lst'
+             'test2' : '/home/myWork/DataSets/HED-BSDS/test2.lst',
+             'test1' : '/home/myWork/DataSets/HED-BSDS/test1.lst',
+             'testing' : '/home/myWork/DataSets/HED-BSDS/test.lst'
             }
 transform = transforms.Compose(
     [
