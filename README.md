@@ -17,7 +17,7 @@ wget http://mftp.mmcheng.net/liuyun/rcf/data/PASCAL.tar.gz
 wget http://mftp.mmcheng.net/liuyun/rcf/data/NYUD.tar.gz
 ```
 
-##Citations
+## Citations
 If you used those dataset mentioned above， please citing follow papers:
 ```
 @inproceedings{liu2017richer,
